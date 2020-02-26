@@ -18,16 +18,24 @@ PUT _ingest/pipeline/{{ cookiecutter.processor_type }}-pipeline
   ]
 }
 
-PUT /my-index/my-type/1?pipeline={{ cookiecutter.processor_type }}-pipeline
+PUT /my-index/_doc/my_id?pipeline={{ cookiecutter.processor_type }}-pipeline
 {
   "my_field" : "Some content"
 }
 
-GET /my-index/my-type/1
+GET /my-index/_doc/my_id
 {
   "my_field" : "Some content",
   "potentially_enriched_field": "potentially_enriched_value"
 }
+
+GET my_index/_doc/my_id
+{
+  "my_field" : "asaaaaaa",
+  "potentially_enriched_field": "potentially_enriched_value"
+}
+
+GET my_index/_doc/my_id
 ```
 
 ## Configuration
