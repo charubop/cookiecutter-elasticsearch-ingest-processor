@@ -42,7 +42,7 @@ GET /my-index/my-type/1
 In order to install this plugin, you need to create a zip distribution first by running
 
 ```bash
-gradle clean check
+./gradlew clean check
 ```
 
 This will produce a zip file in `build/distributions`.
