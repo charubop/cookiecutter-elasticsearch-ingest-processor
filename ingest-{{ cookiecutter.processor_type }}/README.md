@@ -25,7 +25,7 @@ PUT /my-index/my-type/1?pipeline={{ cookiecutter.processor_type }}-pipeline
 
 GET /my-index/my-type/1
 {
-  "my_field" : "Some content"
+  "my_field" : "Some content",
   "potentially_enriched_field": "potentially_enriched_value"
 }
 ```
