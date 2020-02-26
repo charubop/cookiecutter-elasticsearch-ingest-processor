@@ -10,7 +10,7 @@ This should simplify the creation of Elasticsearch Ingest Processors, this templ
 All you need to run is
 
 ```bash
-cookiecutter gh:spinscale/cookiecutter-elasticsearch-ingest-processor
+cookiecutter cookiecutter-elasticsearch-ingest-processor
 ```
 
 This requests of four inputs, which are `processor_type`, `description`, `developer_name` and `elasticsearch_version`. Note that `processor_type` must be all lowercase and may only contain characters (no numbers, special chars).
