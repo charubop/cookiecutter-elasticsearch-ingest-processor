@@ -11,7 +11,6 @@ All you need to run is
 
 ```bash
 cd ~/Workspaces
-export JAVA_HOME=/home/cbopardikar/jdk-13.0.2/
 cookiecutter cookiecutter-elasticsearch-ingest-processor
 ```
 
