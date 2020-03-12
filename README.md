@@ -10,7 +10,7 @@ This should simplify the creation of Elasticsearch Ingest Processors, this templ
 All you need to run is
 
 ```bash
-cd ~/
+cd ~/Workspaces
 export JAVA_HOME=/home/cbopardikar/jdk-13.0.2/
 cookiecutter cookiecutter-elasticsearch-ingest-processor
 ```
